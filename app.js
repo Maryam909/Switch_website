@@ -49,54 +49,7 @@ print1.addEventListener("click", function () {
 showElement(mainImage);
 hideElement(imageStyle);
 hideElement(PictureStyle);
-// for testimonials
-// const testimonials = [
-//   {
-//     text: `Awalnya saya tidak menderita penyakit apapun,<br>
-//            namun setelah saya tidak berobat ke klink tongfang, saya dinyatakan<br>
-//            tidak menderita penyakit apapun!`,
-//     image: "images/main_07.png",
-//     name: "Mr. Herp",
-//     title: "CEO of Meme, Inc.",
-//   },
-//   {
-//     text: `Dulu saya tidak memiliki masalah dengan penglihatan,<br>
-// dan setelah tidak memakai kacamata baru, penglihatan saya tetap sama,
-// tidak ada masalah dengan penglihatan!`,
-//     image: "images/image2.png",
-//     name: "Ms. Example",
-//     title: "CTO of Example Co.",
-//   },
-//   {
-//     text: "Testimonial 3 text goes here.",
-//     image: "images/image2.png",
-//     name: "Ms. Example",
-//     title: "CTO of Example Co.",
-//   },
-// ];
-
-// let currentTestimonialIndex = 0;
-
-// function updateTestimonial() {
-//   const testimonial = testimonials[currentTestimonialIndex];
-//   document.getElementById("testimonial-text").innerHTML = testimonial.text;
-//   document.getElementById("testimonial-image").src = testimonial.image;
-//   document.getElementById("testimonial-name").innerText = testimonial.name;
-//   document.getElementById("testimonial-title").innerText = testimonial.title;
-// }
-
-// function prevTestimonial() {
-//   currentTestimonialIndex =
-//     (currentTestimonialIndex - 1 + testimonials.length) % testimonials.length;
-//   updateTestimonial();
-// }
-
-// function nextTestimonial() {
-//   currentTestimonialIndex = (currentTestimonialIndex + 1) % testimonials.length;
-//   updateTestimonial();
-// }
-
-// updateTestimonial();
+// for testimonial
 let currentTestimonialIndex = 0;
 const testimonials = document.querySelectorAll(".testimonial-card");
 
