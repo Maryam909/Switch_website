@@ -105,7 +105,7 @@ section #hero-content {
   right: 0; */
   width: 200px;
   height: 100%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.6);
   color: rgb(197, 195, 195);
   padding: 20px;
   border-radius: 5px;
@@ -119,6 +119,9 @@ section #hero-content {
   text-decoration: none;
   margin: 10px 0;
   font-size: 18px;
+}
+.dropdown a:hover {
+  color: #32cd32;
 }
 h1 {
   font-family: "Montserrat";
