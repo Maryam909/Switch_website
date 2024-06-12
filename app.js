@@ -56,7 +56,7 @@ const testimonials = document.querySelectorAll(".testimonial-card");
 function updateTestimonial() {
   testimonials.forEach((testimonial, index) => {
     testimonial.style.display =
-      index === currentTestimonialIndex ? "block" : "none";
+      index === currentTestimonialIndex ? "flex" : "none";
   });
 }
 
